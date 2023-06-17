@@ -27,7 +27,7 @@ import torch
 from diffusers import StableDiffusionPipeline, EulerDiscreteScheduler
 
 # PROMPT ENGINEERING / CHATGPT
-openai.api_key = "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"
+openai.api_key = [""]
 
 openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
